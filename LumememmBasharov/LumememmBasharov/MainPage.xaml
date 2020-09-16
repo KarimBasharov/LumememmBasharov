@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LumememmBasharov.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="hed" BackgroundColor="WhiteSmoke"
+                   CornerRadius="80"
+                   Padding="50"
+                   Margin="130,0"
+                   >
+            </Frame>
+            <Frame x:Name="bod1" BackgroundColor="WhiteSmoke"
+                   CornerRadius="80"
+                   Padding="65"
+                   Margin="115,0"
+                   >
+            </Frame>
+            <Frame x:Name="bod2" BackgroundColor="WhiteSmoke"
+                   CornerRadius="90"
+                   Padding="90"
+                   Margin="90,0"
+                   >
+            </Frame>
+            <StackLayout Orientation="Horizontal">
+            <Button x:Name="on"
+                    Text="Вкл"
+                    HorizontalOptions="StartAndExpand"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black"
+                    Clicked="on_Clicked">
+            </Button>
+                <Button x:Name="off"
+                    Text="Выкл"
+                    HorizontalOptions="EndAndExpand"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black"
+                    Clicked="off_Clicked">
+                </Button>
+                <Button x:Name="rndd"
+                    Text="Рандом"
+                    HorizontalOptions="CenterAndExpand"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black"
+                    Clicked="rndd_Clicked">
+                </Button>
+                <Button x:Name="Sul"
+                    Text="Растопить"
+                    HorizontalOptions="EndAndExpand"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black"
+                    Clicked="Sul_Clicked">
+                </Button>
+            </StackLayout>
+            <StackLayout>
+                <Label x:Name="lbl"
+                   Text="Simple"
+                   FontSize="Large"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   BackgroundColor="LightBlue"
+                   TextColor="Black"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
