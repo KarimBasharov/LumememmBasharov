@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LumememmBasharov.AbsoluteLayout">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <!--<BoxView Color="Blue"
+                 AbsoluteLayout.LayoutBounds="0.5,0,100,25"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <Label Text="Текст"
+               AbsoluteLayout.LayoutBounds="0.5,0.5,110,25"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />-->
+            <BoxView Color="AliceBlue" AbsoluteLayout.LayoutBounds="0.5, 0.03, 110, 110"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="AliceBlue" AbsoluteLayout.LayoutBounds="0.5, 0.2, 170, 170"
+                     CornerRadius="100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="AliceBlue" AbsoluteLayout.LayoutBounds="0.5, 0.5, 220, 220"
+                     CornerRadius="150"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="AliceBlue" AbsoluteLayout.LayoutBounds="0.5, 1, 300, 300"
+                     CornerRadius="150"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="190, 50, 20, 20"
+                     CornerRadius="90"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="145, 50, 20, 20"
+                     CornerRadius="90"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.2, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.25, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.3, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.35, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.4, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.45, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.5, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.55, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.6, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.65, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.7, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.75, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.8, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5, 0.85, 30, 30"
+                     CornerRadius="90"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.45, 0.155, 40, 40"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.4, 0.15, 40, 40"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

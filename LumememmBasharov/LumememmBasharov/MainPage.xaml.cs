@@ -40,18 +40,7 @@ namespace LumememmBasharov
             bod2.BackgroundColor = Color.FromRgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
         }
 
-        private async void Sul_Clicked(object sender, EventArgs e)
-        {
-            for (int i = 0; i < 100; i++)
-            {
-                hed.Opacity = 0.5;
-                bod1.Opacity = 0.5;
-                bod2.Opacity = 0.5;
 
-
-                await Task.Run(() => Thread.Sleep(1000));
-
-            }
-        }
+        
     }
 }

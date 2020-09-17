@@ -23,13 +23,13 @@
                    >
             </Frame>
             <StackLayout Orientation="Horizontal">
-            <Button x:Name="on"
+                <Button x:Name="on"
                     Text="Вкл"
                     HorizontalOptions="StartAndExpand"
                     BackgroundColor="LightBlue"
                     TextColor="Black"
                     Clicked="on_Clicked">
-            </Button>
+                </Button>
                 <Button x:Name="off"
                     Text="Выкл"
                     HorizontalOptions="EndAndExpand"
@@ -43,13 +43,6 @@
                     BackgroundColor="LightBlue"
                     TextColor="Black"
                     Clicked="rndd_Clicked">
-                </Button>
-                <Button x:Name="Sul"
-                    Text="Растопить"
-                    HorizontalOptions="EndAndExpand"
-                    BackgroundColor="LightBlue"
-                    TextColor="Black"
-                    Clicked="Sul_Clicked">
                 </Button>
             </StackLayout>
             <StackLayout>
