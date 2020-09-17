@@ -72,6 +72,12 @@
                      AbsoluteLayout.LayoutFlags="PositionProportional"/>
             <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.4, 0.15, 40, 40"
                      AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0.5, 0.155, 45, 45"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="LightYellow" AbsoluteLayout.LayoutBounds="0.55, 0.155, 30, 30"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <BoxView Color="LightYellow" AbsoluteLayout.LayoutBounds="0.63, 0.156, 40, 40"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
         </AbsoluteLayout>
     </ContentPage.Content>
