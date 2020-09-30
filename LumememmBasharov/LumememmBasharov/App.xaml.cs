@@ -10,7 +10,7 @@ namespace LumememmBasharov
         {
             InitializeComponent();
 
-            MainPage = new AbsoluteLayout();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
